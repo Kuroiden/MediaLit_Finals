@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	background-color: #000005;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+}
+
+#main {
+	width: inherit;
+	height: fit-content;
+	padding: 0% 8%;
+}
+
+/* About */
+#content {
+	background-color: rgba(22, 1, 48, .75);
+	background-image: none;
+	width: 100%;
+	height: fit-content;
+	margin-top: 20px;
+	border: solid 2px #ac02d1;
+	border-radius: 5px;
+	display: block;
+	align-items: auto;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 2px;
+}
+
+#content h1 {
+	background-color: #ac02d1;
+	margin: 30px 25px 0px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.description, .team {
+	background-image: linear-gradient(to right, #070040, #280034);
+	width: 85%;
+	margin: 20px auto;
+	padding: 15px;
+	border: solid 3px #ffffff;
+	border-radius: 10px;
+	display: flex;
+	align-items: top;
+}
+
+.team img {
+	height: 100px;
+	border: solid 2px #ffffff;
+	border-radius: 5px;
+}
+
+.team span {
+	margin-left: 38px;
+}
+
+.team h4 {
+	margin: 0px 0px 0px -24px;
+	text-transform: uppercase;
+}
+
+.articles {
+	width: 80%;
+	margin: -10px auto 10px;
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+}
+
+.articles a, .team a {
+	text-decoration: none;
+	transition: ease-in-out .25s;
+}
+
+.team a {
+	color: #28D8FF;
+}
+
+.articles a {
+	color: #ff2190;
+}
+
+.articles a:hover {
+	background-color: #ff2190;
+	color: #ffffff;
+	transition: ease-in-out .25s;
+}
+
+.team a:hover {
+	background-color: #28D8FF;
+	color: #ffffff;
+}
+
+.triangle {
+	margin: auto 5px auto 15px;
+	justify-content: center;
+	font-size: 25px;
+	user-select: none;
+	animation: HoverUpDown 2s linear infinite;
+	-webkit-animation: HoverUpDown 2s linear infinite;
+}
+
+@keyframes HoverUpDown {
+	
+	0%, 100% {
+		transform: translateY(0px);
+	}
+	
+	50% {
+		transform: translateY(5px);
+	}
+	
+}
+
+@-webkit-keyframes HoverUpDown {
+	
+	0%, 100% {
+		transform: translateY(0px);
+	}
+	
+	50% {
+		transform: translateY(5px);
+	}
+	
+}
+
+/*fashion*/
+#content-fashion {
+	background-color: rgba(59, 0, 20, .75);
+	width: 95%;
+	height: fit-content;
+	margin: 20px auto;
+	border: solid 2px #fa2a70;
+	border-radius: 5px;
+	display: block;
+	align-items: auto;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 2px;
+}
+
+#content-fashion h1 {
+	width: 100%;
+	background-color: #fa2a70;
+	margin: 30px auto 0px -25px;
+	padding: 5px 25px;
+	text-align: center;
+}
+
+#content-fashion h3 {
+	text-align: center;
+}
+
+#content-fashion p {
+	width: 85%;
+	margin: 20px auto;
+}
+
+#content-fashion p img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid #fa2a70;
+	border-radius: 5px;
+}
+
+/*education*/
+#content-education {
+	background-color: rgba(0, 43, 15, .75);
+	width: 95%;
+	height: fit-content;
+	margin: 20px auto;
+	border: solid 2px #00c946;
+	border-radius: 5px;
+	display: block;
+	align-items: auto;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: 'Roboto Mono', monospace;
+	letter-spacing: 2px;
+}
+
+#content-education h1 {
+	width: 100%;
+	background-color: #00c946;
+	margin: 30px auto 0px -25px;
+	padding: 5px 25px;
+	text-align: center;
+}
+
+#content-education h3 {
+	text-align: center;
+}
+
+#content-education p {
+	width: 85%;
+	margin: 20px auto;
+}
+
+#content-education p img {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px solid #00c946;
+	border-radius: 5px;
+}
+
+/*Hans' navbar*/
+.topnav {
+    background-color: #890195;
+	overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #3405cf;
+    color: black;
+}
+ 
+.topnav a.active {
+    background-color: #9e8e02;
+    color: white;
+}
