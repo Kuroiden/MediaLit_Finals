@@ -1,0 +1,52 @@
+html {
+    background-repeat: repeat;
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+
+body {     
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+h1, p {
+    word-spacing: 0.5em;
+    color: #E97451;
+    font-family: "Zero.ttg",sans-serif;
+}
+
+p {
+	font-size: 19px; 
+}
+
+.topnav {
+    background-color: #890195;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #3405cf;
+    color: black;
+}
+ 
+.topnav a.active {
+    background-color: #9e8e02;
+    color: white;
+}
